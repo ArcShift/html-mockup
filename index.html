@@ -1,0 +1,282 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="style/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <script defer src="src/main.js"></script>
+  </head>
+  <body>
+    <h2 class="logo">
+      <span id="openBtn" class="search__btn fa fa-search" onclick="openSearch()"></span>
+      <span id="closeBtn" class="search__btn fa fa-times" onclick="closeSearch()"></span>
+      LOGO
+    </h2>
+    <nav class="menu">
+      <div id="searchBar" class="search__bar">
+          <input class="search__field" type="text" placeholder="Search here...."/>
+      </div>
+      <div class="menu__main">Terkini</div>
+      <div class="menu__main">Bisnis</div>
+      <div class="menu__main">Showbiz</div>
+      <div class="menu__main">Properti</div>
+      <div class="menu__main">Lifestyle</div>
+    </nav>
+    <div class="headline">
+      <div class="headline__group-img">
+        <div class="headline__overlay"></div>
+        <img class="headline__img" src="https://jurnalpolitik.id/wp-content/uploads/2018/07/ANIES-SANDIAGA-710x372.jpg">
+      </div>
+      <div class="headline__group-title">
+        <p class="newsfeed__title">silang pendapat, sandiaga pastikan hubungan dengan anies makin mesra</p>
+        <p class="headline__source">Merdeka.com</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="news-group--flow">
+        <div class="newsfeed">
+          <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
+          <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
+          <p class="newsfeed__source">Liputan6.com</p>
+        </div>
+        <div class="newsfeed">
+          <img class="newsfeed__img" src="https://tasbrand.com/wp-content/uploads/2017/07/Tas-Hermes-Birkin-Syahrini-Everest-with-Swarovski-Hardware-include-Monster-Studed-Charm-6.jpg"/>
+          <p class="newsfeed__title">capai harga ratusan juta, tas hermes birkin jadi investasi</p>
+          <p class="newsfeed__source">merdeka.com</p>
+        </div>
+        <div class="newsfeed">
+          <img class="newsfeed__img" src="https://cdns.klimg.com/vemale.com/headline/650x325/2016/01/cerahkan-leher-hitam-dalam-semalam-dengan-masker-ini.jpg"/>
+          <p class="newsfeed__title">trik jitu cerahkan area leher</p>
+          <p class="newsfeed__source">vemale.com</p>
+        </div>
+        <div class="newsfeed">
+          <img class="newsfeed__img" src="https://cdn1-a.production.images.static6.com/W0kHVEKkEycblUnJt6CROaht5KI=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/liputan6-media-production/medias/1835288/original/072244800_1516184529-girl-money.jpg"/>
+          <p class="newsfeed__title">soal keuangan, wanita wajib siapkan 5 hal ini</p>
+          <p class="newsfeed__source">Liputan6.com</p>
+        </div>
+      </div>
+      <h2 class="heading">topik pilihan</h2>
+      <ul class="list-tag">
+        <li>
+          <a class="list-tag__link" href="#">tips bisnis</a>
+        </li>
+        <li>
+          <a class="list-tag__link" href="#">tips fashion</a>
+        </li>
+        <li>
+          <a class="list-tag__link" href="#">kasus narkoba artis</a>
+        </li>
+        <li>
+          <a class="list-tag__link" href="#">relationship</a>
+        </li>
+      </ul>
+      <h2 class="heading">trending &amp; viral</h2>
+      <div class="news-group--slide">
+        <div id="newsSlide" class="slide__news-group">
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczMzAwODAxMDU2/couple-love.jpg"/>
+            <p class="newsfeed__title">ingin jatuh cinta dengan pasangan yang tepat? simak tips ini</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://i.ytimg.com/vi/sqHWqcHyBEg/maxresdefault.jpg"/>
+            <p class="newsfeed__title">Kulit cantik dan seksi dengan cara extreme</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg"/>
+            <p class="newsfeed__title">news 3</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://media1.popsugar-assets.com/files/thumbor/6YjsyHBBpUs4vZ9dto7sB_GtitQ/fit-in/550x550/filters:format_auto-!!-:strip_icc-!!-/2012/10/41/3/192/1922507/5f9f14933c6f61a3_Apollo7.jpg"/>
+            <p class="newsfeed__title">news 4</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIoQek_4hsaXM7TXND50yl508opACrFnwDdxG5Gdvgi5pwKu_G"/>
+            <p class="newsfeed__title">news 5</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </div>
+        <div class="slide__control-group">
+          <span class="slide__control-btn" onclick="slide(0)"></span>
+          <span class="slide__control-btn" onclick="slide(1)"></span>
+          <span class="slide__control-btn" onclick="slide(2)"></span>
+          <span class="slide__control-btn" onclick="slide(3)"></span>
+          <span class="slide__control-btn" onclick="slide(4)"></span>
+        </div>
+      </div>
+      <h2 class="heading">tampilan modis</h2>
+      <div class="news-group__combine">
+        <div class="newsfeed combine__big">
+          <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
+          <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
+          <p class="newsfeed__source">Liputan6.com</p>
+        </div>
+        <div class="combine__medium">
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="http://cdn2.tstatic.net/travel/foto/bank/images/sepatu_20170614_122912.jpg"/>
+            <p class="newsfeed__title">modis dengan kenyamanan maksimal, coba alas kaki ini</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
+            <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </div>
+        <div class="combine__small">
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/nail-the-interview-when-youre-not-qualified.jpg"/>
+            <p class="newsfeed__title">perhatikan penampilan ketika wawancara kerja, ini tipsnya</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/nail-the-interview-when-youre-not-qualified.jpg"/>
+            <p class="newsfeed__title">perhatikan penampilan ketika wawancara kerja, ini tipsnya</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="heading">rekomendasi</h2>
+        <div class="news-group__inline">
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczMzAwODAxMDU2/couple-love.jpg"/>
+            <p class="newsfeed__title">ingin jatuh cinta dengan pasangan yang tepat? simak tips ini</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://i.ytimg.com/vi/sqHWqcHyBEg/maxresdefault.jpg"/>
+            <p class="newsfeed__title">Kulit cantik dan seksi dengan cara extreme</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg"/>
+            <p class="newsfeed__title">news 3</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://media1.popsugar-assets.com/files/thumbor/6YjsyHBBpUs4vZ9dto7sB_GtitQ/fit-in/550x550/filters:format_auto-!!-:strip_icc-!!-/2012/10/41/3/192/1922507/5f9f14933c6f61a3_Apollo7.jpg"/>
+            <p class="newsfeed__title">news 4</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIoQek_4hsaXM7TXND50yl508opACrFnwDdxG5Gdvgi5pwKu_G"/>
+            <p class="newsfeed__title">news 5</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </div>
+      <h2 class="heading">tips keuangan</h2>
+      <div class="news-group__combine">
+        <div class="newsfeed combine__big">
+          <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
+          <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
+          <p class="newsfeed__source">Liputan6.com</p>
+        </div>
+        <div class="combine__medium">
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="http://cdn2.tstatic.net/travel/foto/bank/images/sepatu_20170614_122912.jpg"/>
+            <p class="newsfeed__title">modis dengan kenyamanan maksimal, coba alas kaki ini</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
+            <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </div>
+        <div class="combine__small">
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/nail-the-interview-when-youre-not-qualified.jpg"/>
+            <p class="newsfeed__title">perhatikan penampilan ketika wawancara kerja, ini tipsnya</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/nail-the-interview-when-youre-not-qualified.jpg"/>
+            <p class="newsfeed__title">perhatikan penampilan ketika wawancara kerja, ini tipsnya</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="heading">populer</h2>
+      <img class="newsfeed__img first__img" src="https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/nail-the-interview-when-youre-not-qualified.jpg"/>
+      <ol id="groupList" class="news-group__list">
+        
+        <li>
+          <div class="newsfeed first">
+            
+            <p class="newsfeed__title">perhatikan penampilan ketika wawancara kerja, ini tipsnya</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="http://www.depkes.go.id/web/assets/images/article/imgDefault-L.jpg"/>
+            <p class="newsfeed__title">ada lowongan kerja terbaru di menkes, mau?</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/nail-the-interview-when-youre-not-qualified.jpg"/>
+            <p class="newsfeed__title">perhatikan penampilan ketika wawancara kerja, ini tipsnya</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://cdns.klimg.com/vemale.com/headline/650x325/2017/12/ramalan-zodiak-gemini-tahun-2018-begini-peruntungan-cinta-karir-kamu.jpg"/>
+            <p class="newsfeed__title">berdasarkan zodiak, ini wanita yang jadi pasangan terbaik</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://www.boldsky.com/img/2012/07/19-couple-fight-190712.jpg"/>
+            <p class="newsfeed__title">generasi ini paling rentan bertengkar soal uang dengan pasangan</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="http://www.dreamers.id/img_artikel/6syahrini-perawatan-wajah.jpg"/>
+            <p class="newsfeed__title">gaya andalan syahrini setelah berhasil berbobot 47 kilogram</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="http://images-hdwallpapers.com/wp-content/uploads/2017/07/Perfume-Desktop-Wallpapers.jpg"/>
+            <p class="newsfeed__title">parfum bertahan seharian? tidak sulit dengan cara ini</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="http://1.bp.blogspot.com/_7wdfsw0zScg/TCBT8KK-yfI/AAAAAAAAADk/sNS-rWe1_Fs/s1600/Sara+Carbonero.jpg"/>
+            <p class="newsfeed__title">siaran tanpa make up, news caster tuai pujian</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="http://www.namarina.org/wp-content/uploads/2014/03/STUDIO-E1.jpg"/>
+            <p class="newsfeed__title">jakarta buka kompetisi balet internasional asian gran prix</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="newsfeed">
+            <img class="newsfeed__img" src="https://icdn2.digitaltrends.com/image/getty-images-drone-fashion-show.jpg"/>
+            <p class="newsfeed__title">drone ikut berlenggak lenggok dipanggung runway dolce & gabbana</p>
+            <p class="newsfeed__source">Liputan6.com</p>
+          </div>
+        </li>
+        <button onclick="loadList(this)">more</button>
+        
+      </ol>
+    </div>
+  </body>
+</html>
