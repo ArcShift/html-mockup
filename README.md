@@ -1,8 +1,6 @@
 # html-mockup
 Komponen yang digunakan:
-
 +BEM CSS
-
 +SASS
 
 Preview : 
