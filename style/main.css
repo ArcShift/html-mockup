@@ -153,8 +153,15 @@ body {
   padding: 10px;
 }
 
+.slide__news-group {
+  display: block;
+}
 .slide__news-group .newsfeed {
   display: none;
+}
+.slide__news-group .newsfeed .newsfeed__img {
+  margin: auto;
+  display: block;
 }
 
 .slide__control-group {

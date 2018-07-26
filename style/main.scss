@@ -151,9 +151,15 @@ body {
   padding: 10px;
 }
 .slide__news-group{
+  display: block;
   .newsfeed{
     display: none;
+    .newsfeed__img{
+      margin: auto;
+      display: block;
+    }
   }
+
 }
 .slide__control-group{
   text-align: center;

@@ -17,7 +17,7 @@ function closeSearch(){
 function slide(index){
   currentSlide.style.display='none';
   currentSlide=newsSlide.children[index]
-  currentSlide.style.display='inline-table';
+  currentSlide.style.display='contents';
 }
 var group=document.getElementById('groupList');
 function loadList(obj){
