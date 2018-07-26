@@ -197,9 +197,11 @@ body {
 }
 
 .first__img {
-  width: 343px;
-  height: 193px;
-  margin: 10px;
+  max-width: 343px;
+  max-height: 193px;
+  margin: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 .news-group__list {
