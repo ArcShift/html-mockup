@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="content">
-      <div class="news-group--flow">
+      <div class="news__group news-group--flow">
         <div class="newsfeed">
           <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
           <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
@@ -56,23 +56,25 @@
           <p class="newsfeed__source">Liputan6.com</p>
         </div>
       </div>
-      <h2 class="heading">topik pilihan</h2>
-      <ul class="list-tag">
-        <li>
-          <a class="list-tag__link" href="#">tips bisnis</a>
-        </li>
-        <li>
-          <a class="list-tag__link" href="#">tips fashion</a>
-        </li>
-        <li>
-          <a class="list-tag__link" href="#">kasus narkoba artis</a>
-        </li>
-        <li>
-          <a class="list-tag__link" href="#">relationship</a>
-        </li>
-      </ul>
+      <div class="news__group">
+        <h2 class="heading">topik pilihan</h2>
+        <ul class="list-tag">
+          <li>
+            <a class="list-tag__link" href="#">tips bisnis</a>
+          </li>
+          <li>
+            <a class="list-tag__link" href="#">tips fashion</a>
+          </li>
+          <li>
+            <a class="list-tag__link" href="#">kasus narkoba artis</a>
+          </li>
+          <li>
+            <a class="list-tag__link" href="#">relationship</a>
+          </li>
+        </ul>
+      </div>
+      <div class="news__group news-group--slide">
       <h2 class="heading">trending &amp; viral</h2>
-      <div class="news-group--slide">
         <div id="newsSlide" class="slide__news-group">
           <div class="newsfeed">
             <img class="newsfeed__img" src="https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczMzAwODAxMDU2/couple-love.jpg"/>
@@ -108,8 +110,8 @@
           <span class="slide__control-btn" onclick="slide(4)"></span>
         </div>
       </div>
+      <div class="news__group news-group__combine">
       <h2 class="heading">tampilan modis</h2>
-      <div class="news-group__combine">
         <div class="newsfeed combine__big">
           <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
           <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
@@ -140,6 +142,7 @@
           </div>
         </div>
       </div>
+      <div class="news__group">
       <h2 class="heading">rekomendasi</h2>
         <div class="news-group__inline">
           <div class="newsfeed">
@@ -168,8 +171,9 @@
             <p class="newsfeed__source">Liputan6.com</p>
           </div>
         </div>
+      </div>
+      <div class="news__group news-group__combine">
       <h2 class="heading">tips keuangan</h2>
-      <div class="news-group__combine">
         <div class="newsfeed combine__big">
           <img class="newsfeed__img" src="https://i1.wp.com/www.biutiva.com/wp-content/uploads/2016/04/ciri-kulit-berminyak.jpg"/>
           <p class="newsfeed__title">ini dia makanan penyebab kulit berminyak</p>
@@ -200,10 +204,10 @@
           </div>
         </div>
       </div>
+      <div class="news__group">
       <h2 class="heading">populer</h2>
       <img class="newsfeed__img first__img" src="https://coda.newjobs.com/api/imagesproxy/ms/cms/content30/images/nail-the-interview-when-youre-not-qualified.jpg"/>
       <ol id="groupList" class="news-group__list">
-
         <li>
           <div class="newsfeed first">
 
@@ -277,6 +281,7 @@
         <button onclick="loadList(this)">more</button>
 
       </ol>
+      </div>
     </div>
   </body>
 </html>

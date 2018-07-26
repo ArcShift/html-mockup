@@ -9,6 +9,7 @@ $semi-transparant: rgba(0, 0, 0, 0.5);
 body {
   margin: 0;
   font-family: 'Lato';
+  background-color: floralwhite;
 }
 
 .logo{
@@ -79,25 +80,24 @@ body {
 .headline__group{
   @extend .headline;
   margin: auto;
-  .headline__img{
-    @extend .headline;
-  }
-  .headline__overlay{
-    background: linear-gradient($transparant,$transparant, $semi-transparant);
+  .headline__group-img{
     @extend .headline;
     position: absolute;
+    overflow: hidden;
+    .headline__img{
+      @extend .headline;
+    }
+    .headline__overlay{
+      background: linear-gradient($transparant,$transparant, $semi-transparant);
+      @extend .headline;
+      position: absolute;
+    }
   }
   .newsfeed__title{
     color: white;
     font-weight: bold;
     font-size: large;
   }
-}
-.headline__group-img{
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  overflow: hidden;
 }
 .headline__group-title{
   position: relative;
@@ -112,7 +112,11 @@ body {
 .content{
   max-width: 360px;
   margin: auto;
-  background-color: floralwhite;
+}
+.news__group{
+  background-color: white;
+//  margin-bottom: 5px;
+//  padding: 10px;
 }
 .news-group__inline{
   display: flex;
@@ -133,6 +137,7 @@ body {
   text-transform: uppercase;
   color: #333;
   font-size: medium;
+  padding: 10px;
 }
 .list-tag{
   list-style: "# ";
